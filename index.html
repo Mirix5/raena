@@ -1,0 +1,22 @@
+<head>
+</head>
+
+<html>
+
+  <h1 id="result">NO</h1>
+</html>
+
+<script>
+  var birthday = false;
+  var date = new Date();
+  var d = date.getDate();
+  var m = date.getMonth();
+
+  if(d == 22 && m == 8) {
+    document.getElementById("result").innerHTML = "YES";
+  }
+
+  console.log(d)
+  console.log(m)
+  console.log(birthday)
+</script>
