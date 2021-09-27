@@ -7,6 +7,7 @@
     <div class='wrapper'>
       <div class='result-wrapper'>
         <h1 id="result">No.</h1>
+        <div id='dumb-vid'></div>
       </div>
     </div>
 </body>
@@ -19,6 +20,7 @@
   var m = date.getMonth();
 
   if(d == 22 && m == 8) {
-    document.getElementById("result").innerHTML = "Yes.";
+    document.getElementById("result").innerHTML = "";
+    document.getElementById("dumb-vid").innerHTML = "<iframe width=\"823\" height=\"617\" src=\"https://www.youtube.com/embed/kViTxsSawII?autoplay=1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
   }
 </script>
